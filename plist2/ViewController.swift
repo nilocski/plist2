@@ -176,7 +176,7 @@ class ViewController: UIViewController, MKMapViewDelegate
         
         // make info string for the notation
         let landString = countryDict[countryNameID]!
-        let capString  = NSLocalizedString("The capital of", comment: "The capital of ..")
+        let capString  = NSLocalizedString("Thecapitalof", comment: "The capital of ..")
         let infoString = "\(capString) \(landString)"
         
         // store country details to Country class.

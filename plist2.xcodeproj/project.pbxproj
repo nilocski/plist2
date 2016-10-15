@@ -41,7 +41,7 @@
 		33DD0C211DB16151008F711E /* spain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spain.png; sourceTree = "<group>"; };
 		33DD0C221DB16151008F711E /* uk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uk.png; sourceTree = "<group>"; };
 		33DD0C2A1DB16308008F711E /* countrydata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = countrydata.plist; sourceTree = "<group>"; };
-		33DD0C2C1DB183C9008F711E /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		33DD0C2C1DB183C9008F711E /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Country.swift; path = ../Country.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,6 @@
 		33DD0BF91DB160D7008F711E = {
 			isa = PBXGroup;
 			children = (
-				33DD0C2C1DB183C9008F711E /* Country.swift */,
 				33DD0C041DB160D7008F711E /* plist2 */,
 				33DD0C031DB160D7008F711E /* Products */,
 				33DD0C171DB160EA008F711E /* Frameworks */,
@@ -78,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				33DD0C051DB160D7008F711E /* AppDelegate.swift */,
+				33DD0C2C1DB183C9008F711E /* Country.swift */,
 				33DD0C071DB160D7008F711E /* ViewController.swift */,
 				33DD0C091DB160D7008F711E /* Main.storyboard */,
 				33DD0C0C1DB160D8008F711E /* Assets.xcassets */,
